@@ -13,6 +13,7 @@
 		A5AD72B72832367B0087D1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AD72B52832367B0087D1CE /* Main.storyboard */; };
 		A5AD72B92832367D0087D1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AD72B82832367D0087D1CE /* Assets.xcassets */; };
 		A5AD72BC2832367D0087D1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AD72BA2832367D0087D1CE /* LaunchScreen.storyboard */; };
+		A5AD72C4283237250087D1CE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD72C3283237250087D1CE /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A5AD72B82832367D0087D1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5AD72BB2832367D0087D1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5AD72BD2832367D0087D1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AD72C3283237250087D1CE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A5AD72AF2832367B0087D1CE /* AppDelegate.swift */,
 				A5AD72B12832367B0087D1CE /* SceneDelegate.swift */,
 				A5AD72B32832367B0087D1CE /* ViewController.swift */,
+				A5AD72C3283237250087D1CE /* Profile.swift */,
 				A5AD72B52832367B0087D1CE /* Main.storyboard */,
 				A5AD72B82832367D0087D1CE /* Assets.xcassets */,
 				A5AD72BA2832367D0087D1CE /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5AD72B42832367B0087D1CE /* ViewController.swift in Sources */,
+				A5AD72C4283237250087D1CE /* Profile.swift in Sources */,
 				A5AD72B02832367B0087D1CE /* AppDelegate.swift in Sources */,
 				A5AD72B22832367B0087D1CE /* SceneDelegate.swift in Sources */,
 			);
