@@ -9,5 +9,5 @@ import Foundation
 
 protocol DetailVewModelType {
     var description: String { get }
-    
+    var age: Box<String?> { get }
 }

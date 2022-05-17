@@ -19,4 +19,6 @@ class DetailVewModel: DetailVewModelType {
         return "\(profile.name) \(profile.secondName) is \(profile.age) old"
     }
     
+    var age: Box<String?> = Box(nil)
+    
 }
