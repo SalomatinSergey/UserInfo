@@ -12,6 +12,9 @@
 		A5A951E928336D9600CC16AF /* TableViewViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A951E828336D9600CC16AF /* TableViewViewModelType.swift */; };
 		A5A951ED2833701200CC16AF /* TableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A951EC2833701200CC16AF /* TableViewCellViewModelType.swift */; };
 		A5A951EF283370D300CC16AF /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A951EE283370D300CC16AF /* TableViewCellViewModel.swift */; };
+		A5A951F12833784D00CC16AF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A951F02833784D00CC16AF /* DetailViewController.swift */; };
+		A5A951F3283378D200CC16AF /* DetailVewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A951F2283378D200CC16AF /* DetailVewModelType.swift */; };
+		A5A951F5283378F700CC16AF /* DetailVewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A951F4283378F700CC16AF /* DetailVewModel.swift */; };
 		A5AD72B02832367B0087D1CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD72AF2832367B0087D1CE /* AppDelegate.swift */; };
 		A5AD72B22832367B0087D1CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD72B12832367B0087D1CE /* SceneDelegate.swift */; };
 		A5AD72B72832367B0087D1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AD72B52832367B0087D1CE /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 		A5A951E828336D9600CC16AF /* TableViewViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewModelType.swift; sourceTree = "<group>"; };
 		A5A951EC2833701200CC16AF /* TableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelType.swift; sourceTree = "<group>"; };
 		A5A951EE283370D300CC16AF /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		A5A951F02833784D00CC16AF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A5A951F2283378D200CC16AF /* DetailVewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVewModelType.swift; sourceTree = "<group>"; };
+		A5A951F4283378F700CC16AF /* DetailVewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVewModel.swift; sourceTree = "<group>"; };
 		A5AD72AC2832367B0087D1CE /* UserInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AD72AF2832367B0087D1CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5AD72B12832367B0087D1CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +68,7 @@
 			children = (
 				A5A951E02833642100CC16AF /* TableViewController.swift */,
 				A5A951E22833685D00CC16AF /* TableViewCell.swift */,
+				A5A951F02833784D00CC16AF /* DetailViewController.swift */,
 				A5AD72B52832367B0087D1CE /* Main.storyboard */,
 				A5AD72BA2832367D0087D1CE /* LaunchScreen.storyboard */,
 			);
@@ -84,6 +91,7 @@
 			children = (
 				A5AD72C528323A0A0087D1CE /* ViewModel.swift */,
 				A5A951EE283370D300CC16AF /* TableViewCellViewModel.swift */,
+				A5A951F4283378F700CC16AF /* DetailVewModel.swift */,
 			);
 			path = VIewModel;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 			children = (
 				A5A951E828336D9600CC16AF /* TableViewViewModelType.swift */,
 				A5A951EC2833701200CC16AF /* TableViewCellViewModelType.swift */,
+				A5A951F2283378D200CC16AF /* DetailVewModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -203,7 +212,10 @@
 				A5A951E32833685D00CC16AF /* TableViewCell.swift in Sources */,
 				A5A951E928336D9600CC16AF /* TableViewViewModelType.swift in Sources */,
 				A5A951EF283370D300CC16AF /* TableViewCellViewModel.swift in Sources */,
+				A5A951F12833784D00CC16AF /* DetailViewController.swift in Sources */,
 				A5AD72B02832367B0087D1CE /* AppDelegate.swift in Sources */,
+				A5A951F5283378F700CC16AF /* DetailVewModel.swift in Sources */,
+				A5A951F3283378D200CC16AF /* DetailVewModelType.swift in Sources */,
 				A5AD72B22832367B0087D1CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
