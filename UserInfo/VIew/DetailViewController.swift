@@ -31,9 +31,9 @@ class DetailViewController: UIViewController {
             self?.textLabel.text = string
         }
         
-//        delay(5) { [unowned self] in 
-//            self.viewModel?.age.value = "999"
-//        }
+        delay(5) { [unowned self] in 
+            self.viewModel?.age.value = "999"
+        }
     }
     
     fileprivate func delay(_ delay: Int, cosure: @escaping () -> ()) {
