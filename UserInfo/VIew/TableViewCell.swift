@@ -14,15 +14,15 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var ageLable: UILabel!
     
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+    weak var viewModel: TableViewCellViewModelType? {
+        
+        willSet(viewModel) {
+            
+            guard let viewModel = viewModel else { return }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+            fullNameLabel.text = viewModel.fullName
+            ageLable.text = viewModel.age
+        }
     }
 
 }
